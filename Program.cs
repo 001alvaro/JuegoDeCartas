@@ -10,24 +10,22 @@ namespace JuegoDeCartas
         {
             static void Main(string[] args)
             {
-                Carta uno = new Carta('A', 1);
-                Carta dos = new Carta('B', 2);
-                Carta tres = new Carta('C', 3);
-                Carta cuatro = new Carta('D', 4);
-                Carta cinco = new Carta('E', 5);
-                Carta seis = new Carta('F', 6);
-                Carta siete = new Carta('G', 7);
-                Carta ocho = new Carta('H', 8);
-                Carta nueve = new Carta('I', 9);
-                Carta diez = new Carta('J', 10);
+                Carta[] carta = new Carta[52];
 
-            Carta[] listaCartas = { uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez };
-
-            foreach (var carta in listaCartas)
+            char letra = 'A';
+            for (int i = 0;  i < carta.Length; i++)
             {
-                Console.WriteLine(carta.ToString());
+                carta[i] = new Carta(letra++, i + 1);
             }
 
+            for (int i = 0; i < carta.Length; i++)
+            {
+                if (carta[i].Palo == 'Z')
+                {
+                    Console.WriteLine("ESTA ES MI CARTA Z!!!");
+                    Console.WriteLine(carta[i]);
+                }
+            }
             Console.ReadLine();
             }
         }
