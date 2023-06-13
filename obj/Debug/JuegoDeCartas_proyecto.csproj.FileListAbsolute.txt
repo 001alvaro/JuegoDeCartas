@@ -1,0 +1,8 @@
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\bin\Debug\ConsoleApp5.exe.config
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\bin\Debug\ConsoleApp5.exe
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\bin\Debug\ConsoleApp5.pdb
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\obj\Debug\JuegoDeCartas_proyecto.csproj.AssemblyReference.cache
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\obj\Debug\JuegoDeCartas_proyecto.csproj.SuggestedBindingRedirects.cache
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\obj\Debug\JuegoDeCartas_proyecto.csproj.CoreCompileInputs.cache
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\obj\Debug\ConsoleApp5.exe
+C:\Users\mati\source\repos\001alvaro\JuegoDeCartas\obj\Debug\ConsoleApp5.pdb
